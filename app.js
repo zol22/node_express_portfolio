@@ -1,6 +1,6 @@
 const express = require('express'); // Creates an express application.
 const app = express(); // Top level function exported by the express module
-
+const port = process.env.PORT || 3338;
 
 // Built-in Static middleware function
 app.use('/static',express.static('public'));// Use a static route and the express.static method to serve the static files located in the public folder.
@@ -43,6 +43,6 @@ app.use((err,req,res,next) => {
 });
 
 
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!')
+app.listen(port, () => {
+    console.log(`The application is running on localhost:${port}!`)
 });
