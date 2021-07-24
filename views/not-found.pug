@@ -1,0 +1,18 @@
+extends layout 
+
+block content
+    
+    div.container
+        h1= `${err.status} - Page Not Found`
+        p.not-found-p= err.message
+
+        if err
+
+            div.not-found-stack
+                hr
+                pre #{err.stack}
+
+        nav.nav
+            a(href='/')
+                span &larr;
+                |  Back

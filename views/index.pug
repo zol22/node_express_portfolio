@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 My portfolio
+
+    p Here I'm presenting a collection of projects I've completed as part of my Treehouse Techdegree. I have learned so much in this journey so far. 
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      each project in projects 
+
+        .cell 
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.image_urls}`)
+            h5= project.project_name
+
+     
+

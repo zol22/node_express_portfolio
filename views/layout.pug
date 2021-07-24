@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Portfolio Site
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='../static/images/pic1.jpg', alt='')
+        .dev-intro-box
+
+          h5 Solange Ormeno
+
+          p I got a bachelor in IT and minor in CS. My passion for web development is beyond words. I love learning new skills and interacting with new tools constantly, that's why , I took this Full stack Web Development course in teamtreehouse to be up to date with the technologies.
+            
+
+
+
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+          span Solange Ormeno
+
+      block content
+
+  script(src='/static/js/script.js')

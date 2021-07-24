@@ -1,0 +1,81 @@
+{
+    "projects":[
+
+        {
+            "id": "0",
+            "project_name": "Random Quote Generator",
+            "description": "A simple app to drop pearls of wisdom into everyone's day",
+            "technologies": ["JS", "CSS", "HTML"],
+            "live_link": "https://zol22.github.io/randomQuote/",
+            "github_link": "https://github.com/zol22/randomQuote",
+            "image_urls": [
+                "/static/images/550x550_randomquote.png", 
+                "/static/images/randomquote1.png",
+                "/static/images/randomquote2.png"
+                ]
+        },
+
+        {
+            "id": "1",
+            "project_name": "Data Pagination and Filtering",
+            "description": "An app that displays the correct number of students that user can easily navigate and view.",
+            "technologies": ["JS", "CSS", "HTML"],
+            "live_link": "https://zol22.github.io/DataPaginationFiltering/",
+            "github_link": "https://github.com/zol22/DataPaginationFiltering",
+            "image_urls": [
+                "/static/images/550x550_datapagination.png",
+                "/static/images/datapagination1.png",
+                "/static/images/datapagination2.png"
+            
+            ]
+        },
+        
+        {
+            "id": "2",
+            "project_name": "Interactive form",
+            "description": "An interactive form that collects and stores users information and test the validation of inputs. ",
+            "technologies": ["JS", "CSS", "HTML"],
+            "live_link": "https://zol22.github.io/InteractiveForm/",
+            "github_link": "https://github.com/zol22/InteractiveForm",
+            "image_urls": [
+                "/static/images/550x550_interactiveform.png",
+                "/static/images/interactiveform1.png",
+                "/static/images/interactiveform2.png"
+            
+            ]
+        },
+
+        {
+            "id": "3",
+            "project_name": "OOP Game Show App",
+            "description": "The phrase hunter game challenges a player to figure out a hidden phrase. ",
+            "technologies": ["OOP","JS", "CSS", "HTML"],
+            "live_link": "https://zol22.github.io/OOPGameShow/",
+            "github_link": "https://github.com/zol22/InteractiveForm",
+            "image_urls": [
+                "/static/images/550x550_oopgameshow.png",
+                "/static/images/oopgameshow1.png",
+                "/static/images/oopgameshow2.png"
+            
+            ]
+        },
+
+        {
+            "id": "4",
+            "project_name": "Public Api Request",
+            "description": "This project create an employee directory by communicating by a third-party API.",
+            "technologies": ["API","JS", "CSS", "HTML"],
+            "live_link": "https://zol22.github.io/publicAPIRequest/",
+            "github_link": "https://github.com/zol22/publicAPIRequest",
+            "image_urls": [
+                "/static/images/550x550_publicapirequest.png",
+                "/static/images/publicapirequest1.png",
+                "/static/images/publicapirequest2.png"
+            ]
+        }
+       
+       
+        
+    ]
+
+}
